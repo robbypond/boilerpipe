@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'net.sourceforge.nekohtml:nekohtml:1.9.21'
+    compile 'net.htmlparser.jericho:jericho-html:3.3'
+    compile 'xerces:xercesImpl:2.11.0'
+    testCompile 'junit:junit:4.12'
+}
