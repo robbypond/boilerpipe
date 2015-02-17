@@ -121,3 +121,4 @@ local.properties
 # TeXlipse plugin
 .texlipse
 
+gradle.properties
